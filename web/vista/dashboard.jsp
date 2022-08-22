@@ -169,26 +169,15 @@
                         <i class="bi bi-journal-text"></i><span>Reportes</span><i class="bi bi-chevron-down ms-auto"></i>
                     </a>
                     <ul id="forms-nav" class="nav-content collapse " data-bs-parent="#sidebar-nav">
-                        <li>
-                            <a href="forms-elements.html">
-                                <i class="bi bi-circle"></i><span>Form Elements</span>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="forms-layouts.html">
-                                <i class="bi bi-circle"></i><span>Form Layouts</span>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="forms-editors.html">
-                                <i class="bi bi-circle"></i><span>Form Editors</span>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="forms-validation.html">
-                                <i class="bi bi-circle"></i><span>Form Validation</span>
-                            </a>
-                        </li>
+                        <a href="forms-elements.html">
+                            <i class="bi bi-circle"></i><span>Reporte 01</span>
+                        </a>
+                        <a href="forms-elements.html">
+                            <i class="bi bi-circle"></i><span>Reporte 01</span>
+                        </a><!-- comment -->
+                        <a href="forms-elements.html">
+                            <i class="bi bi-circle"></i><span>Reporte 01</span>
+                        </a>
                     </ul>
                 </li><!-- End Forms Nav -->
 

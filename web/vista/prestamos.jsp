@@ -171,24 +171,16 @@
                     <ul id="forms-nav" class="nav-content collapse " data-bs-parent="#sidebar-nav">
                         <li>
                             <a href="forms-elements.html">
-                                <i class="bi bi-circle"></i><span>Form Elements</span>
+                                <i class="bi bi-circle"></i><span>Reporte 01</span>
+                            </a>
+                            <a href="forms-elements.html">
+                                <i class="bi bi-circle"></i><span>Reporte 01</span>
+                            </a><!-- comment -->
+                            <a href="forms-elements.html">
+                                <i class="bi bi-circle"></i><span>Reporte 01</span>
                             </a>
                         </li>
-                        <li>
-                            <a href="forms-layouts.html">
-                                <i class="bi bi-circle"></i><span>Form Layouts</span>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="forms-editors.html">
-                                <i class="bi bi-circle"></i><span>Form Editors</span>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="forms-validation.html">
-                                <i class="bi bi-circle"></i><span>Form Validation</span>
-                            </a>
-                        </li>
+                        
                     </ul>
                 </li><!-- End Forms Nav -->
 
@@ -232,36 +224,59 @@
                             <div class="modal-content">
                                 <div class="modal-content">
                                     <div class="modal-header">
-                                        <h4 class="modal-title text-primary"><b>REGISTRAR PRESTAMO</b></h4>
-                                        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                                        <h4 class="modal-title text-primary"><b>CREAR PRESTAMO</b></h4>
+                                        <button type="button" class="btn btn-danger light btn-close" data-bs-dismiss="modal"></button>
                                     </div>
-                                    <div class="modal-body m-0">
-                                        <form method="get" action="Productor">
-                                            <div class="row g-xxl-5">                                                                            
+                                    <div class="modal-body">
+                                        <form >
+                                            <div class="row g-xxl-5">          
                                                 <div class="col-md-6">
-                                                    <label class=" text-primary form-label">Nombres:</label>
-                                                    <input type="text" class="form-control" required name="proNombres-add-a">
-                                                </div>                                                    
+                                                    <input type="hidden"  id="idProductor-add-a">                                                            
+                                                    <label class=" text-primary form-label">Lector nombres:</label><br>
+                                                    <input type="text" class="form-control rounded" id="lecNombre" required>                                                                                             
+                                                </div>     
                                                 <div class="col-md-6">
-                                                    <label class="text-primary form-label">Apellidos</label>
-                                                    <input type="text" class="form-control" name="proApellidos-add-a" required>
-                                                </div>
+                                                    <label class=" text-primary form-label">Lector apellidos:</label><br>
+                                                    <div class="input-group">
+                                                        <div class="col-md-9">                                               
+                                                            <div class="input-group mb-3">
+                                                                <input type="text" class="form-control rounded" id="lecApellido" required>
+                                                            </div>
+                                                        </div>
+                                                        &nbsp;
+                                                        <span class="p-1" style="width:0;">
+                                                            <!--<button class="btn border border-primary" type="button"><i class="fas fa-search mr-1 primary"></i></button>-->
+                                                            <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModalCenter1"><i class=""></i></button>                                                        
+                                                        </span>
+                                                    </div>                                                                                              
+                                                </div>     
+
                                                 <div class="col-md-6">
                                                     <label class="text-primary form-label">Cedula:</label>
-                                                    <input type="text" class="form-control" name="proCedula-add-a" required>                                            
+                                                    <input type="text" class="form-control" required>                                            
                                                 </div>   
                                                 <div class="col-md-6">
                                                     <label class="text-primary form-label">Libro:</label>
-                                                    <input type="text" class="form-control" name="proFechaNacimiento-add-a" required>
+                                                    <input type="text" class="form-control" required>
                                                 </div>   
-                                                <div class="col-md-6">
+                                                <div class="col-md-6 mt-2">
                                                     <label class="text-primary form-label">Dia prestamo:</label>
-                                                    <input type="date" class="form-control" name="proFechaNacimiento-add-a" required>                                                               
+                                                    <input type="date" class="form-control"  required>                                                               
                                                 </div>   
-                                                <div class="col-md-6">
+                                                <div class="col-md-6 mt-2">
                                                     <label class="form-label text-primary">Dia entrega:</label>
-                                                    <input type="date" class="form-control" name="proHijosNumero-add-a" required>
+                                                    <input type="date" class="form-control"  required>
                                                 </div>                                                             
+                                                <div class="col-md-6 mt-2">
+                                                    <label class="form-label text-primary">Estado:</label>
+                                                    <select class="default-select form-control wide mb-3" required>                                                                                             
+                                                        <option value="1">1.- NINGUNO</option>
+                                                        <option value="2">2.- SOFTWARE</option>
+                                                        <option value="3">3.- DISEÑO</option>
+                                                        <option value="4">4.- ADMINISTRACION</option>
+                                                    </select>
+                                                </div>                                                             
+                                                                                                           
                                             </div>                                                                        
                                         </form>
                                     </div>

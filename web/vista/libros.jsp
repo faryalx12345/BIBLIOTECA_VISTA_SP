@@ -169,26 +169,15 @@
                         <i class="bi bi-journal-text"></i><span>Reportes</span><i class="bi bi-chevron-down ms-auto"></i>
                     </a>
                     <ul id="forms-nav" class="nav-content collapse " data-bs-parent="#sidebar-nav">
-                        <li>
-                            <a href="forms-elements.html">
-                                <i class="bi bi-circle"></i><span>Form Elements</span>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="forms-layouts.html">
-                                <i class="bi bi-circle"></i><span>Form Layouts</span>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="forms-editors.html">
-                                <i class="bi bi-circle"></i><span>Form Editors</span>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="forms-validation.html">
-                                <i class="bi bi-circle"></i><span>Form Validation</span>
-                            </a>
-                        </li>
+                        <a href="forms-elements.html">
+                            <i class="bi bi-circle"></i><span>Reporte 01</span>
+                        </a>
+                        <a href="forms-elements.html">
+                            <i class="bi bi-circle"></i><span>Reporte 01</span>
+                        </a>
+                        <a href="forms-elements.html">
+                            <i class="bi bi-circle"></i><span>Reporte 01</span>
+                        </a>
                     </ul>
                 </li><!-- End Forms Nav -->
 
@@ -232,12 +221,12 @@
                             <div class="modal-content">
                                 <div class="modal-content">
                                     <div class="modal-header">
-                                        <h4 class="modal-title text-primary"><b>REGISTRAR LIBRO</b></h4>
-                                        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                                        <h4 class="modal-title text-primary"><b>CREAR LIBRO</b></h4>
+                                        <button type="button" class="btn btn-danger light btn-close" data-bs-dismiss="modal"></button>
                                     </div>
-                                    <div class="modal-body m-0">
+                                    <div class="modal-body">
                                         <form>
-                                            <div class="row g-xxl-5">                                                                            
+                                            <div class="row g-xxl-5">                                            
                                                 <div class="col-md-6">
                                                     <label class=" text-primary form-label">Codigo:</label>
                                                     <input type="text" class="form-control" required name="proNombres-add-a">
@@ -256,20 +245,27 @@
                                                 </div>   
                                                 <div class="col-md-6">
                                                     <label class="text-primary form-label">Tipo:</label>
-                                                    <select class="default-select form-control wide mb-3" name="proJefeHogar-add-a" required>                                                                                             
-                                                        <option value="1">SI</option>
-                                                        <option value="0">NO</option>
+                                                    <select class="default-select form-control wide mb-3" required>                                                                                             
+                                                        <option value="1">1.- DRAMA</option>
+                                                        <option value="2">2.- COMEDIA</option>
+                                                        <option value="3">3.- LITERATURA</option>
+                                                        <option value="4">4.- PROGRAMACION</option>
                                                     </select>
                                                 </div>   
                                                 <div class="col-md-6">
                                                     <label class="form-label text-primary">Carrera:</label>
-                                                    <input type="text" class="form-control" name="proHijosNumero-add-a" required>
+                                                    <select class="default-select form-control wide mb-3" required>                                                                                             
+                                                        <option value="1">1.- NINGUNO</option>
+                                                        <option value="2">2.- SOFTWARE</option>
+                                                        <option value="3">3.- DISEÑO</option>
+                                                        <option value="4">4.- ADMINISTRACION</option>
+                                                    </select>
                                                 </div> 
                                                 <div class="col-md-6">
                                                     <label class="text-primary form-label">Descripcion:</label>
                                                     <input type="text" class="form-control" name="proAnioIncCultivo-add-a" required>
-                                                </div> 
-                                            </div>                                                                        
+                                                </div>                                             
+                                            </div>
                                         </form>
                                     </div>
                                     <div class="modal-footer m-0">
