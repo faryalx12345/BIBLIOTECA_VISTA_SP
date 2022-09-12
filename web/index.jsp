@@ -35,7 +35,6 @@
     </head>
 
     <body class="bg-success">
-
         <main class="bg-dark">
             <div class="container">
 
@@ -53,7 +52,7 @@
                                             <h5 class="card-title text-center pb-0 fs-4">INICIAR SESION</h5>
                                         </div>
 
-                                        <form class="row g-3 needs-validation" novalidate>
+                                        <form class="row g-3 needs-validation">
 
                                             <div class="col-12">
                                                 <label for="yourUsername" class="form-label">Usuario:</label>
@@ -68,7 +67,8 @@
                                             </div>
                                             <br>
                                             <div class="col-12">
-                                                <button class="btn btn-primary w-100" type="submit">INGRESAR</button>
+                                                <a href="vista/dashboard.jsp"class="btn btn-primary w-100">Iniciar Sesion</a>
+                                                <!--<button class="btn btn-primary w-100" type="submit">INGRESAR</button>-->
                                             </div>
 
                                         </form>

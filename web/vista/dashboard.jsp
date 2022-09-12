@@ -1,7 +1,7 @@
 <%-- 
-    Document   : estudiantes
+    Document   : estudiante
     Created on : 14 ago. 2022, 12:01:48
-    Author     : perez
+    Author     : Jairo
 --%>
 
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
@@ -50,8 +50,8 @@
         <header id="header" class="header fixed-top d-flex align-items-center">
 
             <div class="d-flex align-items-center justify-content-between">
-                <a href="index.html" class="logo d-flex align-items-center">
-                    <img src="assets/img/logo.png" alt="">
+                <a href="dashboard.jsp" class="logo d-flex align-items-center">
+                    <img src="assets/img/icono libro.png" alt=""/>
                     <span class="d-none d-lg-block">BIBLIOTECA</span>
                 </a>
                 <i class="bi bi-list toggle-sidebar-btn"></i>
@@ -72,54 +72,8 @@
 
                         <a class="nav-link nav-profile d-flex align-items-center pe-0" href="#" data-bs-toggle="dropdown">
                             <img src="assets/img/profile-img.jpg" alt="Profile" class="rounded-circle">
-                            <span class="d-none d-md-block dropdown-toggle ps-2">JAIRO</span>
+                            <span class="">JAIRO</span>
                         </a><!-- End Profile Iamge Icon -->
-
-                        <ul class="dropdown-menu dropdown-menu-end dropdown-menu-arrow profile">
-                            <li class="dropdown-header">
-                                <h6>Kevin Anderson</h6>
-                                <span>Web Designer</span>
-                            </li>
-                            <li>
-                                <hr class="dropdown-divider">
-                            </li>
-
-                            <li>
-                                <a class="dropdown-item d-flex align-items-center" href="users-profile.html">
-                                    <i class="bi bi-person"></i>
-                                    <span>My Profile</span>
-                                </a>
-                            </li>
-                            <li>
-                                <hr class="dropdown-divider">
-                            </li>
-
-                            <li>
-                                <a class="dropdown-item d-flex align-items-center" href="users-profile.html">
-                                    <i class="bi bi-gear"></i>
-                                    <span>Account Settings</span>
-                                </a>
-                            </li>
-                            <li>
-                                <hr class="dropdown-divider">
-                            </li>
-
-                            <li>
-                                <a class="dropdown-item d-flex align-items-center" href="pages-faq.html">
-                                    <i class="bi bi-question-circle"></i>
-                                    <span>Need Help?</span>
-                                </a>
-                            </li>
-                            <li>
-                                <hr class="dropdown-divider">
-                            </li>
-
-                            <li>
-                                <a class="dropdown-item d-flex align-items-center" href="#">
-                                    <i class="bi bi-box-arrow-right"></i>
-                                    <span>Sign Out</span>
-                                </a>
-                            </li>
 
                         </ul><!-- End Profile Dropdown Items -->
                     </li><!-- End Profile Nav -->
@@ -143,21 +97,21 @@
 
                 <li class="nav-item">
                     <a class="nav-link collapsed" data-bs-target="#components-nav" data-bs-toggle="collapse" href="#">
-                        <i class="bi bi-menu-button-wide"></i><span>Registrar</span><i class="bi bi-chevron-down ms-auto"></i>
+                        <i class="bi bi-menu-button-wide"></i><span>Registro</span><i class="bi bi-chevron-down ms-auto"></i>
                     </a>
                     <ul id="components-nav" class="nav-content collapse " data-bs-parent="#sidebar-nav">
-                        <li>
-                            <a href="components-alerts.html">
-                                <i class="bi bi-circle"></i><span>Estudiantes</span>
+                        <li>                            
+                            <a href="estudiantes.jsp">
+                                <i class="bi bi-circle"></i><span>Usuarios</span>
                             </a>
                         </li>
                         <li>
-                            <a href="components-accordion.html">
+                            <a href="libros.jsp">
                                 <i class="bi bi-circle"></i><span>Libros</span>
                             </a>
                         </li>
                         <li>
-                            <a href="components-badges.html">
+                            <a href="prestamos.jsp">
                                 <i class="bi bi-circle"></i><span>Prestamo</span>
                             </a>
                         </li>
@@ -181,22 +135,8 @@
                     </ul>
                 </li><!-- End Forms Nav -->
 
-                <li class="nav-heading">Ayuda</li>
-
-                <li class="nav-item">
-                    <a class="nav-link collapsed" href="users-profile.html">
-                        <i class="bi bi-person"></i>
-                        <span>Soporte tecnico</span>
-                    </a>
-                </li><!-- End Profile Page Nav -->
-
-                <li class="nav-item">
-                    <a class="nav-link collapsed" href="pages-faq.html">
-                        <i class="bi bi-question-circle"></i>
-                        <span>Manual de usuario</span>
-                    </a>
-                </li><!-- End F.A.Q Page Nav -->
-
+                <li class="nav-heading">Autor Lola Nieva</li>
+                <img src="assets/img/libros_1.jpg" alt=""/>
             </ul>
 
         </aside><!-- End Sidebar-->
@@ -204,7 +144,7 @@
         <main id="main" class="main">
 
             <div class="pagetitle">
-                <h1>Inicio</h1>
+                <h1>BIBLIO</h1>
 
             </div><!-- End Page Title -->
 
@@ -226,7 +166,7 @@
                                             <li><a class="dropdown-item" href="#">Registrar</a></li>
                                         </ul>
                                     </div>
-
+                                    <img src="assets/img/libros biblio.jpg" alt=""/>
                                     <div class="card-body">
                                         <h5 class="card-title">Libros</h5>
 
@@ -256,7 +196,7 @@
                                             <li><a class="dropdown-item" href="#">Registrar</a></li>
                                         </ul>
                                     </div>
-
+                                    <img src="assets/img/libros prestamos.jpg" alt=""/>
                                     <div class="card-body">
                                         <h5 class="card-title">Prestamos</h5>
 
@@ -287,7 +227,7 @@
                                             <li><a class="dropdown-item" href="#">Registrar</a></li>
                                         </ul>
                                     </div>
-
+                                    <img src="assets/img/libros lectores.jpg" alt=""/>
                                     <div class="card-body">
                                         <h5 class="card-title">Lectores</h5>
 
@@ -323,48 +263,7 @@
                                     <li><a class="dropdown-item" href="#">Registrar</a></li>
                                 </ul>
                             </div>
-
-                            <div class="card-body">
-                                <h5 class="card-title">ACTIVIDAD RECIENTE</h5>
-
-                                <div class="activity">
-
-                                    <div class="activity-item d-flex">
-                                        <div class="activite-label">32 min</div>
-                                        <i class='bi bi-circle-fill activity-badge text-success align-self-start'></i>
-                                        <div class="activity-content">
-                                            Quia quae rerum <a href="#" class="fw-bold text-dark">explicabo officiis</a> beatae
-                                        </div>
-                                    </div><!-- End activity item-->
-
-
-                                    <div class="activity-item d-flex">
-                                        <div class="activite-label">1 day</div>
-                                        <i class='bi bi-circle-fill activity-badge text-info align-self-start'></i>
-                                        <div class="activity-content">
-                                            Tempore autem saepe <a href="#" class="fw-bold text-dark">occaecati voluptatem</a> tempore
-                                        </div>
-                                    </div><!-- End activity item-->
-
-                                    <div class="activity-item d-flex">
-                                        <div class="activite-label">2 days</div>
-                                        <i class='bi bi-circle-fill activity-badge text-warning align-self-start'></i>
-                                        <div class="activity-content">
-                                            Est sit eum reiciendis exercitationem
-                                        </div>
-                                    </div><!-- End activity item-->
-
-                                    <div class="activity-item d-flex">
-                                        <div class="activite-label">4 weeks</div>
-                                        <i class='bi bi-circle-fill activity-badge text-muted align-self-start'></i>
-                                        <div class="activity-content">
-                                            Dicta dolorem harum nulla eius. Ut quidem quidem sit quas
-                                        </div>
-                                    </div><!-- End activity item-->
-
-                                </div>
-
-                            </div>
+                            <img src="assets/img/libros auto.jpg" alt=""/>
                         </div><!-- End Recent Activity -->
 
                     </div><!-- End Right side columns -->
@@ -377,7 +276,7 @@
         <!-- ======= Footer ======= -->
         <footer id="footer" class="footer">
             <div class="copyright">
-                &copy; Copyright <strong><span>Biblioteca</span></strong>. Todos los derechos reservados
+                &copy; <strong><span>Biblioteca</span></strong>. INT
             </div>
         </footer><!-- End Footer -->
 
